@@ -1,0 +1,35 @@
+Install Required Modules:
+Ensure that you have Python installed on your system. Then, install the required modules by running the following commands in your terminal or command prompt:
+
+Copy code:
+pip install pyttsx3
+pip install speechRecognition
+pip install wikipedia
+
+Additionally, if you plan to send emails, ensure you have the smtplib module installed.
+
+Set Up Email Configuration (Optional):
+If you intend to use the email functionality, you need to configure your Gmail account to allow less secure apps. Follow these steps:
+
+Go to your Google Account settings.
+Navigate to the Security tab.
+Scroll down and enable the "Less secure app access" option.
+Clone or Download the Project:
+Clone the project repository from GitHub or download the project files as a ZIP archive.
+
+Navigate to the Project Directory:
+Using the terminal or command prompt, navigate to the directory where you have cloned or extracted the project files.
+
+Run the Python Script:
+Run the jarvis.py or main.py Python script by executing the following command:
+
+python jarvis.py
+
+Interact with J.A.R.V.I.S.:
+Once the script is running, J.A.R.V.I.S. will greet you based on the current time. You can then speak commands to J.A.R.V.I.S., such as asking for the time, searching Wikipedia, playing music, opening websites, or sending emails.
+
+Speak Commands Clearly:
+Ensure that your microphone is enabled and functioning properly. Speak commands clearly and distinctly to ensure accurate recognition by the speech recognition module.
+Terminate the Program:
+To stop the program, press Ctrl + C in the terminal or command prompt where the script is running.
+
